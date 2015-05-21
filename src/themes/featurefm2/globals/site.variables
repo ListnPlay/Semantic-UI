@@ -318,7 +318,7 @@
 @positiveTextColor       : #1D571E;
 
 /* Negative */
-@negativeColor           : @black; //ffm
+@negativeColor           : @textColor; //ffm
 @negativeBackgroundColor : #f7e3e3; //ffm
 @negativeBorderColor     : #ff0000; //ffm
 @negativeHeaderColor     : #912D2B;
