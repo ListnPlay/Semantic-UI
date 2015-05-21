@@ -229,10 +229,10 @@
 @secondaryItemTransition: color @defaultDuration @defaultEasing;
 @secondaryItemColor: @unselectedTextColor;
 
-@secondaryHoverItemBackground: @transparentBlack;
+@secondaryHoverItemBackground: transparent; //ffm
 @secondaryHoverItemColor: @selectedTextColor;
 
-@secondaryActiveItemBackground: @transparentBlack;
+@secondaryActiveItemBackground: transparent;  //ffm
 @secondaryActiveItemColor: @selectedTextColor;
 @secondaryActiveHoverItemBackground: @transparentBlack;
 @secondaryActiveHoverItemColor: @selectedTextColor;
