@@ -7,7 +7,7 @@ semantic.json
 tasks/**/oauth.js
 dist
 .idea
-
+src/.idea
 # Numerous always-ignore extensions
 *.diff
 *.err
