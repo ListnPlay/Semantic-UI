@@ -3563,7 +3563,7 @@ body {
 
 .ui.negative.buttons .button,
 .ui.negative.button {
-  background-color: #1b1c1d !important;
+  background-color: #ffffff !important;
   color: #ffffff;
   text-shadow: none;
   background-image: none;
@@ -3575,21 +3575,21 @@ body {
 
 .ui.negative.buttons .button:hover,
 .ui.negative.button:hover {
-  background-color: #0d0f11 !important;
+  background-color: #f4f1f1 !important;
   color: #ffffff;
   text-shadow: none;
 }
 
 .ui.negative.buttons .button:focus,
 .ui.negative.button:focus {
-  background-color: #060809 !important;
+  background-color: #efe7e7 !important;
   color: #ffffff;
   text-shadow: none;
 }
 
 .ui.negative.buttons .button:active,
 .ui.negative.button:active {
-  background-color: #020203 !important;
+  background-color: #e6e6e6 !important;
   color: #ffffff;
   text-shadow: none;
 }
@@ -3597,7 +3597,7 @@ body {
 .ui.negative.buttons .active.button,
 .ui.negative.active.button,
 .ui.negative.buttons .active.button:active {
-  background-color: #0c0f12;
+  background-color: #f4f0f0;
   color: #ffffff;
   text-shadow: none;
 }
@@ -9730,7 +9730,7 @@ img.ui.bordered.image {
   line-height: 44px;
   font-family: museo-sans, sans-serif;
   padding: -20.71429em 5px;
-  background: #ffffff;
+  background: transparent;
   border: 1px solid #cccccc;
   color: rgba(0, 0, 0, 0.8);
   border-radius: 0;
@@ -9815,7 +9815,7 @@ img.ui.bordered.image {
 .ui.input.focus input,
 .ui.input input:focus {
   border-color: #1dadea;
-  background: #ffffff;
+  background: transparent;
   color: #333333;
   box-shadow: none;
 }
@@ -10193,13 +10193,13 @@ img.ui.bordered.image {
 
 .field > input,
 .ui.input > input {
-  background-color: transparent !important;
+  background-color: transparent;
   position: relative;
 }
 
 .field > input:focus,
 .ui.input > input:focus {
-  z-index: 1;
+  z-index: 2;
 }
 
 /*
@@ -15147,7 +15147,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #1b1c1d;
+  color: #333333;
 }
 
 .ui.form .required.fields:not(.grouped) > .field > label:after,
@@ -28246,7 +28246,7 @@ a.ui.nag {
 ---------------*/
 
 .ui.progress.error .bar {
-  background-color: #1b1c1d !important;
+  background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
 .ui.progress.error .bar,
@@ -28354,7 +28354,7 @@ a.ui.nag {
 }
 
 .ui.inverted.progress.error > .label {
-  color: #1b1c1d;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 /*--------------

@@ -21,11 +21,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dropdown.variables" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dropdown.variables" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/featurefm2/modules/dropdown.variables">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3643979">
+            <state vertical-scroll-proportion="-12.888889">
               <caret line="238" column="77" selection-start-line="238" selection-start-column="77" selection-end-line="238" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.variables" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/featurefm2/elements/input.variables">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2984293">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.overrides" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/featurefm2/elements/input.overrides">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.586207">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.variables" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/featurefm2/collections/form.variables">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-60.555557">
+              <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -42,6 +75,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/themes/featurefm2/modules/dropdown.variables" />
+        <option value="$PROJECT_DIR$/themes/featurefm2/collections/form.variables" />
+        <option value="$PROJECT_DIR$/themes/featurefm2/elements/input.overrides" />
+        <option value="$PROJECT_DIR$/themes/featurefm2/elements/input.variables" />
       </list>
     </option>
   </component>
@@ -329,12 +365,12 @@
       <created>1432214825906</created>
       <option name="number" value="Default" />
       <updated>1432214825906</updated>
-      <workItem from="1432214827579" duration="87000" />
+      <workItem from="1432214827579" duration="729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87000" />
+    <option name="totallyTimeSpent" value="729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -375,8 +411,35 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/themes/featurefm2/modules/dropdown.variables">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3643979">
+        <state vertical-scroll-proportion="-12.888889">
           <caret line="238" column="77" selection-start-line="238" selection-start-column="77" selection-end-line="238" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/featurefm2/elements/input.overrides">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.586207">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/featurefm2/collections/form.variables">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-60.555557">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/featurefm2/elements/input.variables">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2984293">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>

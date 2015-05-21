@@ -17,7 +17,7 @@
 @padding: (@verticalPadding - @lineHeightOffset) @horizontalPadding;
 
 @textAlign: left;
-@background: #FFFFFF;
+@background: transparent;
 @borderWidth: 1px;
 @border: @borderWidth solid #cccccc; //ffm
 @boxShadow: none;
@@ -91,7 +91,8 @@
 /* Error */
 @errorBackground: #f7e3e3; //ffm
 @errorBorder: #ff0000; //ffm
-@errorColor: @negativeColor;
+//@errorColor: @negativeColor;
+@errorColor: #ff0000; //ffm
 @errorBoxShadow: none;
 @errorColor: #ff0000; //ffm
 

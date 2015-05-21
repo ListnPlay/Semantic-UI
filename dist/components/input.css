@@ -40,7 +40,7 @@
   line-height: 44px;
   font-family: museo-sans, sans-serif;
   padding: -20.71429em 5px;
-  background: #ffffff;
+  background: transparent;
   border: 1px solid #cccccc;
   color: rgba(0, 0, 0, 0.8);
   border-radius: 0;
@@ -124,7 +124,7 @@
 .ui.input.focus input,
 .ui.input input:focus {
   border-color: #1dadea;
-  background: #ffffff;
+  background: transparent;
   color: #333333;
   box-shadow: none;
 }
@@ -457,12 +457,12 @@
 
 .field > input,
 .ui.input > input {
-  background-color: transparent !important;
+  background-color: transparent;
   position: relative;
 }
 .field > input:focus,
 .ui.input > input:focus {
-  z-index: 1;
+  z-index: 2;
 }
 /*
 @media (max-width: 479px) {
