@@ -30,7 +30,7 @@
 @valueFontWeight: @font-weight-regular; //ffm
 @valueLineHeight: 1.5em; //ffm
 @valueColor: @black;
-@valueTextTransform: uppercase;
+@valueTextTransform: none; //ffm
 
 @linedBorder: 1px solid rgba(153,153,153,0.5);  //ffm
 @linedBorderHorizontalPadding: 20px; //ffm
@@ -38,10 +38,10 @@
 
 /* Label */
 @labelSize: 14px; //ffm
-@topLabelDistance: 0rem;
+@topLabelDistance: 8px; //ffm
 @bottomLabelDistance: 0rem;
 @labelFont: @headerFont;
-@labelFontWeight: bold;
+@labelFontWeight: @font-weight-regular;
 @labelColor: @textColor;
 @labelLineHeight: @relativeLarge;
 @labelTextTransform: uppercase;
