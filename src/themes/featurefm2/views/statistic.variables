@@ -38,13 +38,13 @@
 
 /* Label */
 @labelSize: 14px; //ffm
-@topLabelDistance: 8px; //ffm
-@bottomLabelDistance: 0rem;
+@topLabelDistance: 0rem;
+@bottomLabelDistance: 8px; //ffm
 @labelFont: @headerFont;
 @labelFontWeight: @font-weight-regular;
 @labelColor: @textColor;
 @labelLineHeight: @relativeLarge;
-@labelTextTransform: uppercase;
+@labelTextTransform: none;
 
 /* Text */
 @textValueLineHeight: 1em;
