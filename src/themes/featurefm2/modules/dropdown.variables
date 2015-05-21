@@ -254,7 +254,7 @@
 @labelHorizontalSpacing: 0.2857142rem; /* 4px @ 14px/rem */
 @labelVerticalSpacing: (0.2857142em / 2);
 @labelMargin: @labelVerticalSpacing @labelHorizontalSpacing @labelVerticalSpacing 0em;
-@labelBoxShadow: 0px 0px 0px 1px @borderColor inset;
+@labelBoxShadow: 0px 0px 0px 0px @borderColor inset; //ffm
 
 @labelVerticalPadding: 0.35714em; /* 5px @ 14px/em */
 @labelHorizontalPadding: @relativeMini;

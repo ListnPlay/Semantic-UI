@@ -15522,7 +15522,7 @@ ol.ui.horizontal.list li:before,
 *******************************/
 
 .ui.form .ui.input > input {
-  width: 100%;
+  width: 100% !important;
 }
 
 /*******************************
@@ -26007,7 +26007,7 @@ select.ui.dropdown {
   font-size: 1em;
   padding: 0.35714em 0.72222222em;
   margin: 0.1428571em 0.2857142rem 0.1428571em 0em;
-  box-shadow: 0px 0px 0px 1px #cccccc inset;
+  box-shadow: 0px 0px 0px 0px #cccccc inset;
 }
 
 /* Dropdown Icon */
