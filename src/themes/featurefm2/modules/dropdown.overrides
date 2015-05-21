@@ -67,11 +67,6 @@
 */
 
 
-
-.ui.search.dropdown > input.search:focus {
-  border: 1px solid @ffm-blue !important;
-}
-
 .ui.dropdown .menu > .item {
   background-color: #f4f4f4;
 }
