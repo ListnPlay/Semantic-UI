@@ -27,10 +27,10 @@
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 1em 0em;
-  max-width: auto;
+  max-width: 175px;
 }
 .ui.statistic + .ui.statistic {
-  margin: 0em 0em 0em 1.5em;
+  margin: 0em 0em 0em 0em;
 }
 .ui.statistic:first-child {
   margin-top: 0em;
@@ -73,15 +73,15 @@
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0em 1.5em 2em;
-  max-width: auto;
+  margin: 0em 0em 0em;
+  max-width: 175px;
 }
 .ui.statistics {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 1em -1.5em -2em;
+  margin: 1em 0em 0em;
 }
 
 /* Clearing */
@@ -112,13 +112,13 @@
 
 .ui.statistics .statistic > .value,
 .ui.statistic > .value {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 4rem;
-  font-weight: normal;
-  line-height: 1em;
+  font-family: museo-sans, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.5em;
   color: #1b1c1d;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 
 /*--------------
@@ -127,12 +127,12 @@
 
 .ui.statistics .statistic > .label,
 .ui.statistic > .label {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 1em;
+  font-family: museo-sans, sans-serif;
+  font-size: 14px;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
 }
 
 /* Top Label */
@@ -201,74 +201,74 @@
 ---------------*/
 
 .ui.ten.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.ten.statistics .statistic {
   min-width: 10%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.nine.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.nine.statistics .statistic {
   min-width: 11.11111111%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.eight.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.eight.statistics .statistic {
   min-width: 12.5%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.seven.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.seven.statistics .statistic {
   min-width: 14.28571429%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.six.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.six.statistics .statistic {
   min-width: 16.66666667%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.five.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.five.statistics .statistic {
   min-width: 20%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.four.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.four.statistics .statistic {
   min-width: 25%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.three.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.three.statistics .statistic {
   min-width: 33.33333333%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.two.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.two.statistics .statistic {
   min-width: 50%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 .ui.one.statistics {
-  margin: 0em 0em -2em;
+  margin: 0em 0em 0em;
 }
 .ui.one.statistics .statistic {
   min-width: 100%;
-  margin: 0em 0em 2em;
+  margin: 0em 0em 0em;
 }
 
 /*--------------
@@ -335,7 +335,7 @@
 .ui.blue.statistics .statistic > .value,
 .ui.statistics .blue.statistic > .value,
 .ui.blue.statistic > .value {
-  color: #2185d0;
+  color: #1dadea;
 }
 .ui.green.statistics .statistic > .value,
 .ui.statistics .green.statistic > .value,
@@ -350,7 +350,7 @@
 .ui.pink.statistics .statistic > .value,
 .ui.statistics .pink.statistic > .value,
 .ui.pink.statistic > .value {
-  color: #e03997;
+  color: #e52d98;
 }
 .ui.purple.statistics .statistic > .value,
 .ui.statistics .purple.statistic > .value,
@@ -397,12 +397,12 @@
   color: #ffffff;
 }
 .ui.inverted.statistic .label {
-  color: rgba(255, 255, 255, 0.9);
+  color: #999999;
 }
 .ui.inverted.blue.statistics .statistic > .value,
 .ui.statistics .inverted.blue.statistic > .value,
 .ui.inverted.blue.statistic > .value {
-  color: #54c8ff;
+  color: #1dadea;
 }
 .ui.inverted.green.statistics .statistic > .value,
 .ui.statistics .inverted.green.statistic > .value,
@@ -417,7 +417,7 @@
 .ui.inverted.pink.statistics .statistic > .value,
 .ui.statistics .inverted.pink.statistic > .value,
 .ui.inverted.pink.statistic > .value {
-  color: #ff8edf;
+  color: #e52d98;
 }
 .ui.inverted.purple.statistics .statistic > .value,
 .ui.statistics .inverted.purple.statistic > .value,
@@ -490,7 +490,7 @@
 /* Medium */
 .ui.statistics .statistic > .value,
 .ui.statistic > .value {
-  font-size: 4rem;
+  font-size: 2.2rem;
 }
 .ui.horizontal.statistics .statistic > .value,
 .ui.horizontal.statistic > .value {
@@ -504,7 +504,7 @@
 /* Large */
 .ui.large.statistics .statistic > .value,
 .ui.large.statistic > .value {
-  font-size: 5rem;
+  font-size: 46px;
 }
 .ui.large.horizontal.statistics .statistic > .value,
 .ui.large.horizontal.statistic > .value {
@@ -534,6 +534,18 @@
          Theme Overrides
 *******************************/
 
+.ui.statistics .lined.statistic {
+  border-left: 1px solid rgba(153, 153, 153, 0.5);
+  padding-left: 20px;
+}
+.ui.down.bordered.statistics {
+  border-bottom: 1px solid rgba(153, 153, 153, 0.5);
+  padding-bottom: 25px;
+  line-height: 1.5em;
+}
+.ui.large.statistics .statistic > .value {
+  line-height: 0.7em;
+}
 
 
 /*******************************

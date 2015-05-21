@@ -54,14 +54,14 @@
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.2857rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #333333;
   font-size: 0.9285em;
   font-weight: bold;
   text-transform: none;
 }
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.2857rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #333333;
   font-size: 0.9285em;
   font-weight: bold;
   text-transform: none;
@@ -70,7 +70,7 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0em 1em 0em 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #333333;
   font-size: 0.9285em;
   font-weight: bold;
   text-transform: none;
@@ -107,21 +107,21 @@
 .ui.form input[type="time"],
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: museo-sans, sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  line-height: 1.2142em;
-  padding: 0.67861em 1em;
-  font-size: 1em;
+  line-height: 42px;
+  padding: 0 20px;
+  font-size: 18px;
   background: #ffffff;
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.2857rem;
-  box-shadow: 0em 0em 0em 0em transparent inset;
-  -webkit-transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-          transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  border: 1px solid #cccccc;
+  color: #333333;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+          transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 /* Collapse Flex */
@@ -135,20 +135,20 @@
   margin: 0em;
   -webkit-appearance: none;
   tap-highlight-color: rgba(255, 255, 255, 0);
-  padding: 0.78571em 1em;
+  padding: 0 20px;
   background: #ffffff;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 1px solid #cccccc;
   outline: none;
-  color: rgba(0, 0, 0, 0.87);
-  border-radius: 0.2857rem;
-  box-shadow: 0em 0em 0em 0em transparent inset;
-  -webkit-transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-          transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-  font-size: 1em;
-  height: 12em;
-  min-height: 8em;
+  color: #333333;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+          transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  font-size: 18px;
+  height: 100%;
+  min-height: 42px;
   max-height: 24em;
-  line-height: 1.2857;
+  line-height: 42px;
   resize: vertical;
 }
 .ui.form textarea,
@@ -173,13 +173,13 @@
   height: auto;
   width: 100%;
   background: #ffffff;
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  border-radius: 0.2857rem;
-  box-shadow: 0em 0em 0em 0em transparent inset;
+  border: 1px solid #cccccc;
+  border-radius: 0;
+  box-shadow: none;
   padding: 0.62em 1em;
-  color: rgba(0, 0, 0, 0.87);
-  -webkit-transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-          transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  color: #333333;
+  -webkit-transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+          transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 /*--------------------
@@ -263,42 +263,42 @@
 
 /* browsers require these rules separate */
 .ui.form ::-webkit-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: #cccccc;
 }
 .ui.form ::-ms-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: #cccccc;
 }
 .ui.form ::-moz-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: #cccccc;
 }
 .ui.form :focus::-webkit-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: #cccccc;
 }
 .ui.form :focus::-ms-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: #cccccc;
 }
 .ui.form :focus::-moz-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: #cccccc;
 }
 
 /* Error Placeholder */
 .ui.form .error ::-webkit-input-placeholder {
-  color: #b93937;
+  color: #cccccc;
 }
 .ui.form .error ::-ms-input-placeholder {
-  color: #b93937;
+  color: #cccccc;
 }
 .ui.form .error ::-moz-placeholder {
-  color: #b93937;
+  color: #cccccc;
 }
 .ui.form .error :focus::-webkit-input-placeholder {
-  color: #a63331;
+  color: #cccccc;
 }
 .ui.form .error :focus::-ms-input-placeholder {
-  color: #a63331;
+  color: #cccccc;
 }
 .ui.form .error :focus::-moz-placeholder {
-  color: #a63331;
+  color: #cccccc;
 }
 
 /*--------------------
@@ -316,18 +316,18 @@
 .ui.form input[type="time"]:focus,
 .ui.form input[type="text"]:focus,
 .ui.form input[type="url"]:focus {
-  color: rgba(0, 0, 0, 0.95);
-  border-color: rgba(34, 36, 38, 0.3);
-  border-radius: 0.2857rem;
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #1dadea;
+  border-radius: 0;
   background: #ffffff;
-  box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.3) inset;
+  box-shadow: none;
 }
 .ui.form textarea:focus {
-  color: rgba(0, 0, 0, 0.95);
-  border-color: rgba(34, 36, 38, 0.3);
-  border-radius: 0.2857rem;
+  color: rgba(0, 0, 0, 0.85);
+  border-color: #1dadea;
+  border-radius: 0;
   background: #ffffff;
-  box-shadow: 0px 0em 0em 0em rgba(34, 36, 38, 0.3) inset;
+  box-shadow: none;
   -webkit-appearance: none;
 }
 
@@ -372,11 +372,11 @@
 .ui.form .field.error label,
 .ui.form .fields.error .field .input,
 .ui.form .field.error .input {
-  color: #922d2b;
+  color: #1b1c1d;
 }
 .ui.form .fields.error .field .corner.label,
 .ui.form .field.error .corner.label {
-  border-color: #922d2b;
+  border-color: #1b1c1d;
   color: #ffffff;
 }
 .ui.form .fields.error .field textarea,
@@ -405,10 +405,10 @@
 .ui.form .field.error input[type="time"],
 .ui.form .field.error input[type="text"],
 .ui.form .field.error input[type="url"] {
-  background: #fff6f6;
-  border-color: #e0b4b4;
-  color: #922d2b;
-  border-radius: 0.2857rem;
+  background: #f7e3e3;
+  border-color: #ff0000;
+  color: #1b1c1d;
+  border-radius: 0;
   box-shadow: none;
 }
 .ui.form .field.error textarea:focus,
@@ -424,8 +424,8 @@
 .ui.form .field.error input[type="time"]:focus,
 .ui.form .field.error input[type="text"]:focus,
 .ui.form .field.error input[type="url"]:focus {
-  background: #fff6f6;
-  border-color: #e0b4b4;
+  background: #f7e3e3;
+  border-color: #ff0000;
   color: #922d2b;
   -webkit-appearance: none;
   box-shadow: none;
@@ -445,20 +445,20 @@
 .ui.form .field.error .ui.dropdown,
 .ui.form .field.error .ui.dropdown .text,
 .ui.form .field.error .ui.dropdown .item {
-  background: #fff6f6;
-  color: #922d2b;
+  background: #f7e3e3;
+  color: #1b1c1d;
 }
 .ui.form .fields.error .field .ui.dropdown,
 .ui.form .field.error .ui.dropdown {
-  border-color: #e0b4b4 !important;
+  border-color: #ff0000 !important;
 }
 .ui.form .fields.error .field .ui.dropdown:hover,
 .ui.form .field.error .ui.dropdown:hover {
-  border-color: #e0b4b4 !important;
+  border-color: #ff0000 !important;
 }
 .ui.form .fields.error .field .ui.dropdown:hover .menu,
 .ui.form .field.error .ui.dropdown:hover .menu {
-  border-color: #e0b4b4;
+  border-color: #ff0000;
 }
 .ui.form .fields.error .field .ui.multiple.selection.dropdown > .label,
 .ui.form .field.error .ui.multiple.selection.dropdown > .label {
@@ -492,20 +492,20 @@
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) label,
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box,
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box {
-  color: #922d2b;
+  color: #1b1c1d;
 }
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label:before,
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) label:before,
 .ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box:before,
 .ui.form .field.error .checkbox:not(.toggle):not(.slider) .box:before {
-  background: #fff6f6;
-  border-color: #e0b4b4;
+  background: #f7e3e3;
+  border-color: #ff0000;
 }
 .ui.form .fields.error .field .checkbox label:after,
 .ui.form .field.error .checkbox label:after,
 .ui.form .fields.error .field .checkbox .box:after,
 .ui.form .field.error .checkbox .box:after {
-  color: #922d2b;
+  color: #1b1c1d;
 }
 
 /*--------------------
@@ -606,7 +606,7 @@
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #db2828;
+  color: #1b1c1d;
 }
 .ui.form .required.fields:not(.grouped) > .field > label:after,
 .ui.form .required.fields.grouped > label:after,
@@ -729,7 +729,7 @@
 }
 
 /* Swap to full width on mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 479px) {
   .ui.form .two.fields > .fields,
   .ui.form .two.fields > .field,
   .ui.form .three.fields > .fields,
@@ -823,7 +823,7 @@
 }
 
 /* Swap to full width on mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 479px) {
   .ui.form .two.fields > .fields,
   .ui.form .two.fields > .field,
   .ui.form .three.fields > .fields,
@@ -911,7 +911,7 @@
 
 /* Standard */
 .ui.small.form {
-  font-size: 0.92857143rem;
+  font-size: 0.94444444rem;
 }
 
 /* Medium */
@@ -921,12 +921,12 @@
 
 /* Large */
 .ui.large.form {
-  font-size: 1.14285714rem;
+  font-size: 1.16666667rem;
 }
 
 /* Huge */
 .ui.huge.form {
-  font-size: 1.42857143rem;
+  font-size: 1.44444444rem;
 }
 
 
@@ -934,6 +934,9 @@
          Theme Overrides
 *******************************/
 
+.ui.form .ui.input > input {
+  width: 100%;
+}
 
 
 /*******************************
