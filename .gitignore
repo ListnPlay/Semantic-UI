@@ -5,6 +5,8 @@ src/**/site/
 theme.config
 semantic.json
 tasks/**/oauth.js
+dist
+.idea
 
 # Numerous always-ignore extensions
 *.diff
