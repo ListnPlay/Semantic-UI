@@ -2,84 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59d53165-0f41-4add-b003-817905127395" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/accordion.css" afterPath="$PROJECT_DIR$/dist/components/accordion.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/accordion.min.css" afterPath="$PROJECT_DIR$/dist/components/accordion.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/ad.css" afterPath="$PROJECT_DIR$/dist/components/ad.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/ad.min.css" afterPath="$PROJECT_DIR$/dist/components/ad.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/breadcrumb.css" afterPath="$PROJECT_DIR$/dist/components/breadcrumb.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/breadcrumb.min.css" afterPath="$PROJECT_DIR$/dist/components/breadcrumb.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/button.css" afterPath="$PROJECT_DIR$/dist/components/button.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/button.min.css" afterPath="$PROJECT_DIR$/dist/components/button.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/card.css" afterPath="$PROJECT_DIR$/dist/components/card.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/card.min.css" afterPath="$PROJECT_DIR$/dist/components/card.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/checkbox.css" afterPath="$PROJECT_DIR$/dist/components/checkbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/checkbox.min.css" afterPath="$PROJECT_DIR$/dist/components/checkbox.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/comment.css" afterPath="$PROJECT_DIR$/dist/components/comment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/comment.min.css" afterPath="$PROJECT_DIR$/dist/components/comment.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/container.css" afterPath="$PROJECT_DIR$/dist/components/container.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/container.min.css" afterPath="$PROJECT_DIR$/dist/components/container.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/divider.css" afterPath="$PROJECT_DIR$/dist/components/divider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/divider.min.css" afterPath="$PROJECT_DIR$/dist/components/divider.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/dropdown.css" afterPath="$PROJECT_DIR$/dist/components/dropdown.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/dropdown.min.css" afterPath="$PROJECT_DIR$/dist/components/dropdown.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/feed.css" afterPath="$PROJECT_DIR$/dist/components/feed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/feed.min.css" afterPath="$PROJECT_DIR$/dist/components/feed.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/form.css" afterPath="$PROJECT_DIR$/dist/components/form.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/form.min.css" afterPath="$PROJECT_DIR$/dist/components/form.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/grid.css" afterPath="$PROJECT_DIR$/dist/components/grid.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/grid.min.css" afterPath="$PROJECT_DIR$/dist/components/grid.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/header.css" afterPath="$PROJECT_DIR$/dist/components/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/header.min.css" afterPath="$PROJECT_DIR$/dist/components/header.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/icon.css" afterPath="$PROJECT_DIR$/dist/components/icon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/icon.min.css" afterPath="$PROJECT_DIR$/dist/components/icon.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/image.css" afterPath="$PROJECT_DIR$/dist/components/image.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/image.min.css" afterPath="$PROJECT_DIR$/dist/components/image.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/input.css" afterPath="$PROJECT_DIR$/dist/components/input.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/input.min.css" afterPath="$PROJECT_DIR$/dist/components/input.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/item.css" afterPath="$PROJECT_DIR$/dist/components/item.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/item.min.css" afterPath="$PROJECT_DIR$/dist/components/item.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/label.css" afterPath="$PROJECT_DIR$/dist/components/label.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/label.min.css" afterPath="$PROJECT_DIR$/dist/components/label.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/list.css" afterPath="$PROJECT_DIR$/dist/components/list.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/list.min.css" afterPath="$PROJECT_DIR$/dist/components/list.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/loader.css" afterPath="$PROJECT_DIR$/dist/components/loader.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/loader.min.css" afterPath="$PROJECT_DIR$/dist/components/loader.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/menu.css" afterPath="$PROJECT_DIR$/dist/components/menu.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/menu.min.css" afterPath="$PROJECT_DIR$/dist/components/menu.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/message.css" afterPath="$PROJECT_DIR$/dist/components/message.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/message.min.css" afterPath="$PROJECT_DIR$/dist/components/message.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/modal.css" afterPath="$PROJECT_DIR$/dist/components/modal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/modal.min.css" afterPath="$PROJECT_DIR$/dist/components/modal.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/nag.css" afterPath="$PROJECT_DIR$/dist/components/nag.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/nag.min.css" afterPath="$PROJECT_DIR$/dist/components/nag.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/popup.css" afterPath="$PROJECT_DIR$/dist/components/popup.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/popup.min.css" afterPath="$PROJECT_DIR$/dist/components/popup.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/progress.css" afterPath="$PROJECT_DIR$/dist/components/progress.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/progress.min.css" afterPath="$PROJECT_DIR$/dist/components/progress.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/rail.css" afterPath="$PROJECT_DIR$/dist/components/rail.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/rail.min.css" afterPath="$PROJECT_DIR$/dist/components/rail.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/rating.css" afterPath="$PROJECT_DIR$/dist/components/rating.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/rating.min.css" afterPath="$PROJECT_DIR$/dist/components/rating.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/reset.css" afterPath="$PROJECT_DIR$/dist/components/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/reset.min.css" afterPath="$PROJECT_DIR$/dist/components/reset.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/search.css" afterPath="$PROJECT_DIR$/dist/components/search.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/search.min.css" afterPath="$PROJECT_DIR$/dist/components/search.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/segment.css" afterPath="$PROJECT_DIR$/dist/components/segment.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/segment.min.css" afterPath="$PROJECT_DIR$/dist/components/segment.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/semantic.css" afterPath="$PROJECT_DIR$/dist/semantic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/semantic.min.css" afterPath="$PROJECT_DIR$/dist/semantic.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/shape.css" afterPath="$PROJECT_DIR$/dist/components/shape.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/shape.min.css" afterPath="$PROJECT_DIR$/dist/components/shape.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/sidebar.css" afterPath="$PROJECT_DIR$/dist/components/sidebar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/sidebar.min.css" afterPath="$PROJECT_DIR$/dist/components/sidebar.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/site.css" afterPath="$PROJECT_DIR$/dist/components/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/site.min.css" afterPath="$PROJECT_DIR$/dist/components/site.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/statistic.css" afterPath="$PROJECT_DIR$/dist/components/statistic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/statistic.min.css" afterPath="$PROJECT_DIR$/dist/components/statistic.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/step.css" afterPath="$PROJECT_DIR$/dist/components/step.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/step.min.css" afterPath="$PROJECT_DIR$/dist/components/step.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/table.css" afterPath="$PROJECT_DIR$/dist/components/table.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/components/table.min.css" afterPath="$PROJECT_DIR$/dist/components/table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/themes/featurefm2/collections/form.overrides" afterPath="$PROJECT_DIR$/src/themes/featurefm2/collections/form.overrides" />
     </list>
     <ignored path="Semantic-UI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -531,12 +454,12 @@
       <created>1432212383560</created>
       <option name="number" value="Default" />
       <updated>1432212383560</updated>
-      <workItem from="1432212385741" duration="415000" />
+      <workItem from="1432212385741" duration="520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415000" />
+    <option name="totallyTimeSpent" value="520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
