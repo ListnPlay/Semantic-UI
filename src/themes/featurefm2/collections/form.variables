@@ -58,10 +58,10 @@
 
 /* Text Area */
 //@textAreaPadding: @inputVerticalPadding @inputHorizontalPadding;
-@textAreaPadding: 0 20px; //ffm
+@textAreaPadding: 10px 20px; //ffm
 @textAreaHeight: 100%; // ffm
 @textAreaResize: vertical;
-@textAreaLineHeight: 42px; //ffm
+@textAreaLineHeight: 1.3; //ffm
 @textAreaMinHeight: 42px; //ffm
 @textAreaMaxHeight: 24em;
 @textAreaBackground: @inputBackground;
