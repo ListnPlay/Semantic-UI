@@ -762,3 +762,5 @@ i.icon.neuter:before { content: "\f22c"; }
 i.icon.facebook.official { content: "\f230"; }
 i.icon.pinterest.official { content: "\f231"; }
 i.icon.bed:before { content: "\f236"; }
+
+i.icon.delete:before {content: '\2715';}  //ffm
