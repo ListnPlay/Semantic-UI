@@ -11,7 +11,7 @@
 @verticalPadding: 0.78571em;
 @horizontalPadding: 5px; //ffm
 
-@lineHeight: 44px; //ffm
+@lineHeight: 1.3; //ffm
 @lineHeightOffset: ((@lineHeight - 1em) / 2);
 
 @padding: (@verticalPadding - @lineHeightOffset) @horizontalPadding;
