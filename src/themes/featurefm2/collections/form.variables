@@ -34,7 +34,7 @@
 @inputLineHeight: 42px; //ffm
 //@inputPadding: (@inputVerticalPadding + ((1em - @inputLineHeight) / 2)) @inputHorizontalPadding;
 @inputPadding: 0 20px; //ffm
-@inputBackground: #FFFFFF;
+@inputBackground: transparent; //ffm
 @inputBorder: 1px solid #cccccc;  //ffm
 @inputBorderRadius: @absoluteBorderRadius;
 @inputColor: @textColor;
