@@ -20,3 +20,21 @@
         content: '\2715';
     }
 }
+
+.ui.modal > .header {
+    padding-bottom: 20px;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    font-weight: 300;
+    font-size: 30px;
+    padding-top: 42px;
+    padding-bottom: 15px;
+}
+
+.ui.modal > .content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: transparent;
+}
+
