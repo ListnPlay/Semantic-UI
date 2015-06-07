@@ -66,7 +66,14 @@ $.fn.rating = function(parameters) {
           else {
             module.disable();
           }
-          module.set.rating( module.get.initialRating() );
+          if(settings.initialRating) {
+            module.debug('Setting initial rating');
+            module.setRating(settings.initialRating);
+          }
+          if( $module.data(metadata.rating) ) {
+            module.debug('Rating found in metadata');
+            module.setRating( $module.data(metadata.rating) );
+          }
           module.instantiate();
         },
 
@@ -93,12 +100,11 @@ $.fn.rating = function(parameters) {
         setup: {
           layout: function() {
             var
-              maxRating = module.get.maxRating(),
-              html      = $.fn.rating.settings.templates.icon(maxRating)
+              maxRating = $module.data(metadata.maxRating) || settings.maxRating
             ;
             module.debug('Generating icon html dynamically');
             $module
-              .html(html)
+              .html($.fn.rating.settings.templates.icon(maxRating))
             ;
             module.refresh();
           }
@@ -133,7 +139,7 @@ $.fn.rating = function(parameters) {
           click: function() {
             var
               $activeIcon   = $(this),
-              currentRating = module.get.rating(),
+              currentRating = module.getRating(),
               rating        = $icon.index($activeIcon) + 1,
               canClear      = (settings.clearable == 'auto')
                ? ($icon.length === 1)
@@ -143,14 +149,22 @@ $.fn.rating = function(parameters) {
               module.clearRating();
             }
             else {
-              module.set.rating( rating );
+              module.setRating( rating );
             }
           }
         },
 
         clearRating: function() {
           module.debug('Clearing current rating');
-          module.set.rating(0);
+          module.setRating(0);
+        },
+
+        getRating: function() {
+          var
+            currentRating = $icon.filter('.' + className.active).length
+          ;
+          module.verbose('Current rating retrieved', currentRating);
+          return currentRating;
         },
 
         bind: {
@@ -189,55 +203,29 @@ $.fn.rating = function(parameters) {
           ;
         },
 
-        get: {
-          initialRating: function() {
-            if($module.data(metadata.rating) !== undefined) {
-              $module.removeData(metadata.rating);
-              return $module.data(metadata.rating);
-            }
-            return settings.initialRating;
-          },
-          maxRating: function() {
-            if($module.data(metadata.maxRating) !== undefined) {
-              $module.removeData(metadata.maxRating);
-              return $module.data(metadata.maxRating);
-            }
-            return settings.maxRating;
-          },
-          rating: function() {
-            var
-              currentRating = $icon.filter('.' + className.active).length
+        setRating: function(rating) {
+          var
+            ratingIndex = (rating - 1 >= 0)
+              ? (rating - 1)
+              : 0,
+            $activeIcon = $icon.eq(ratingIndex)
+          ;
+          $module
+            .removeClass(className.selected)
+          ;
+          $icon
+            .removeClass(className.selected)
+            .removeClass(className.active)
+          ;
+          if(rating > 0) {
+            module.verbose('Setting current rating to', rating);
+            $activeIcon
+              .prevAll()
+              .andSelf()
+                .addClass(className.active)
             ;
-            module.verbose('Current rating retrieved', currentRating);
-            return currentRating;
           }
-        },
-
-        set: {
-          rating: function(rating) {
-            var
-              ratingIndex = (rating - 1 >= 0)
-                ? (rating - 1)
-                : 0,
-              $activeIcon = $icon.eq(ratingIndex)
-            ;
-            $module
-              .removeClass(className.selected)
-            ;
-            $icon
-              .removeClass(className.selected)
-              .removeClass(className.active)
-            ;
-            if(rating > 0) {
-              module.verbose('Setting current rating to', rating);
-              $activeIcon
-                .prevAll()
-                .andSelf()
-                  .addClass(className.active)
-              ;
-            }
-            settings.onRate.call(element, rating);
-          }
+          settings.onRate.call(element, rating);
         },
 
         setting: function(name, value) {

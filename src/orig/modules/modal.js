@@ -349,7 +349,16 @@ $.fn.modal = function(parameters) {
                 ;
               }
               else {
-                module.error(error.noTransition);
+                module.debug('Showing modal with javascript');
+                $module
+                  .fadeIn(settings.duration, settings.easing, function() {
+                    settings.onVisible.apply(element);
+                    module.add.keyboardShortcuts();
+                    module.save.focus();
+                    module.set.active();
+                    callback();
+                  })
+                ;
               }
             }
           }
@@ -391,7 +400,18 @@ $.fn.modal = function(parameters) {
               ;
             }
             else {
-              module.error(error.noTransition);
+              module.remove.active();
+              if( !module.othersActive() ) {
+                module.hideDimmer();
+              }
+              module.remove.keyboardShortcuts();
+              $module
+                .fadeOut(settings.duration, settings.easing, function() {
+                  settings.onHidden.call(element);
+                  module.restore.focus();
+                  callback();
+                })
+              ;
             }
           }
         },

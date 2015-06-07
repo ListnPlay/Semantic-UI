@@ -102,7 +102,7 @@ $.fn.shape = function(parameters) {
         repaint: function() {
           module.verbose('Forcing repaint event');
           var
-            shape          = $sides[0] || document.createElement('div'),
+            shape          = $sides.get(0) || document.createElement('div'),
             fakeAssignment = shape.offsetWidth
           ;
         },
@@ -117,7 +117,7 @@ $.fn.shape = function(parameters) {
             module.reset();
             module.set.active();
           };
-          settings.beforeChange.call($nextSide[0]);
+          settings.beforeChange.call($nextSide.get());
           if(module.get.transitionEvent()) {
             module.verbose('Starting CSS animation');
             $module
@@ -279,7 +279,7 @@ $.fn.shape = function(parameters) {
             $nextSide
               .addClass(className.active)
             ;
-            settings.onChange.call($nextSide[0]);
+            settings.onChange.call($nextSide.get());
             module.set.defaultSide();
           }
         },
