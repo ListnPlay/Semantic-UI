@@ -26,6 +26,11 @@
   height: 100px !important;
 }
 
+.ui.avatar.image.xlarge {
+  width: 110px !important;
+  height: 110px !important;
+}
+
 .ui.avatar.image.huge {
   width: 140px !important;
   height: 140px !important;
