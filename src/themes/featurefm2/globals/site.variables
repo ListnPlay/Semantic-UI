@@ -135,7 +135,8 @@
 @inputBackground        : @white;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
-@inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
+//@inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
+@inputPadding           : @inputVerticalPadding 20px;
 
 /* Line Height Default For Inputs in Browser */
 @inputLineHeight: 1.2142em;

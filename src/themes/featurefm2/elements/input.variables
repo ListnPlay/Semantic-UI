@@ -10,7 +10,7 @@
 
 @inputFont: @pageFont;
 @verticalPadding: 0.78571em;
-@horizontalPadding: 5px;
+@horizontalPadding: 20px;
 
 @lineHeight: 44px;
 @lineHeightOffset: ((@lineHeight - 1em) / 2);

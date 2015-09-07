@@ -31,7 +31,7 @@
 @inputFontSize: 18px;
 @inputLineHeight: 42px;
 @defaultInputLineHeight: 42px;
-@inputPadding: 0 20px;
+@inputPadding: 20px 20px;
 @inputVerticalPadding: 0.78571em;
 @inputHorizontalPadding: 1em;
 @inputLineHeight: @defaultInputLineHeight;
