@@ -1,0 +1,144 @@
+/*******************************
+             Step
+*******************************/
+
+/*-------------------
+       Group
+--------------------*/
+
+@stepMargin: 1em 0em;
+@stepsBorderRadius: @defaultBorderRadius;
+@stepsBackground: '';
+@stepsBoxShadow: none;
+@stepsBorder: 1px solid @borderColor;
+@transitionDuration: 0.5s;
+@transitionEasing: cubic-bezier(0.175, 0.885, 0.320, 1);
+
+/*-------------------
+      Element
+--------------------*/
+
+@verticalMargin: 0em;
+@horizontalMargin: 0em;
+
+@arrowSize: 1.5em;
+@verticalPadding: 0.9285em;
+@horizontalPadding: 1.5em;
+@leftPadding: @horizontalPadding + (@arrowSize / 2);
+
+@transition:
+  background-color @transitionDuration @transitionEasing,
+  opacity @transitionDuration @transitionEasing,
+  color @transitionDuration @transitionEasing,
+  box-shadow @transitionDuration @transitionEasing
+;
+@borderRadius: @defaultBorderRadius;
+@lineHeight: 1.142rem;
+@alignItems: center;
+@backgroundColor: #FFFFFF;
+@background: @backgroundColor;
+@borderRadius: 0em;
+@boxShadow: 0px 0px 0px 1px @solidBorderColor;
+@borderWidth: 1px;
+@justifyContent: center;
+@border: none;
+@divider: @borderWidth solid @borderColor;
+
+/* Icon */
+@iconDistance: 0.6em;
+@iconSize: 2em;
+@iconVerticalAlign: middle;
+@iconAlign: middle;
+
+/* Title */
+@titleFontFamily: @headerFont;
+@titleFontWeight: bold;
+@titleFontSize: 1.0714em;
+@titleColor: @darkTextColor;
+
+/* Description */
+@descriptionDistance: 0.1em;
+@descriptionFontSize: 0.9285em;
+@descriptionFontWeight: normal;
+@descriptionColor: @textColor;
+
+
+/* Arrow */
+@arrowBackgroundColor: @backgroundColor;
+@arrowTopOffset: 50%;
+@arrowRightOffset: 0em;
+@arrowBorderWidth: 0px @borderWidth @borderWidth 0px;
+@arrowBorderColor: @borderColor;
+@arrowDisplay: block;
+@lastArrowDisplay: none;
+
+@activeArrowDisplay: block;
+@activeLastArrowDisplay: none;
+
+/* Mobile */
+@mobileIconDistance: @iconDistance;
+
+/*-------------------
+       Types
+--------------------*/
+
+/* Vertical */
+@verticalDivider: @divider;
+@verticalArrowTopOffset: 50%;
+@verticalArrowRightOffset: 0%;
+@verticalArrowBorderWidth: 0px @borderWidth @borderWidth 0px;
+
+@verticalArrowDisplay: none;
+@verticalLastArrowDisplay: @verticalArrowDisplay;
+
+@verticalActiveArrowDisplay: block;
+@verticalActiveLastArrowDisplay: block;
+
+/*-------------------
+       Group
+--------------------*/
+
+@stepsBorderRadius: @defaultBorderRadius;
+@stepsBackground: '';
+@stepsBoxShadow: '';
+
+/*-------------------
+      Variations
+--------------------*/
+
+@attachedHorizontalOffset: -@borderWidth;
+@attachedVerticalOffset: -@borderWidth;
+@attachedWidth: ~"calc(100% + "-@attachedHorizontalOffset * 2~")";
+@attachedTopMargin: 0em;
+@attachedBottomMargin: -1px 0em 0em;
+@orderedFontFamily: inherit;
+@orderedFontWeight: bold;
+
+/*-------------------
+       States
+--------------------*/
+
+/* Completed */
+@completedColor: @positiveColor;
+
+/* Hover */
+@hoverBackground: #FAFAFA;
+@hoverColor: @hoveredTextColor;
+
+/* Down */
+@downBackground: #F0F0F0;
+@downColor: @pressedTextColor;
+
+/* Active */
+@activeBackground: #F0F0F0;
+@activeColor: @linkColor;
+@activeIconColor: @darkTextColor;
+
+/* Active + Hover */
+@activeHoverBackground: #ECECEC;
+@activeHoverColor: @textColor;
+
+
+/* Disabled */
+@disabledBackground: @white;
+@disabledColor: @disabledTextColor;

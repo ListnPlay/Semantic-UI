@@ -43,7 +43,7 @@ img.ui.image {
 .ui.disabled.images,
 .ui.disabled.image {
   cursor: default;
-  opacity: 0.45;
+  opacity: 0.3;
 }
 
 
@@ -154,8 +154,8 @@ img.ui.bordered.image {
 .ui.avatar.image {
   margin-right: 0.25em;
   display: inline-block;
-  width: 2em;
-  height: 2em;
+  width: 2.5em;
+  height: 2.5em;
   border-radius: 500rem;
 }
 
@@ -212,9 +212,9 @@ img.ui.bordered.image {
 .ui.mini.images img,
 .ui.mini.images svg,
 .ui.mini.image {
-  width: 35px;
+  width: 20px;
   height: auto;
-  font-size: 0.71428571rem;
+  font-size: 0.72222222rem;
 }
 .ui.tiny.images .image,
 .ui.tiny.images img,
@@ -222,7 +222,7 @@ img.ui.bordered.image {
 .ui.tiny.image {
   width: 80px;
   height: auto;
-  font-size: 0.85714286rem;
+  font-size: 0.83333333rem;
 }
 .ui.small.images .image,
 .ui.small.images img,
@@ -230,7 +230,7 @@ img.ui.bordered.image {
 .ui.small.image {
   width: 150px;
   height: auto;
-  font-size: 0.92857143rem;
+  font-size: 0.94444444rem;
 }
 .ui.medium.images .image,
 .ui.medium.images img,
@@ -246,7 +246,7 @@ img.ui.bordered.image {
 .ui.large.image {
   width: 450px;
   height: auto;
-  font-size: 1.14285714rem;
+  font-size: 1.16666667rem;
 }
 .ui.big.images .image,
 .ui.big.images img,
@@ -254,7 +254,7 @@ img.ui.bordered.image {
 .ui.big.image {
   width: 600px;
   height: auto;
-  font-size: 1.28571429rem;
+  font-size: 1.27777778rem;
 }
 .ui.huge.images .image,
 .ui.huge.images img,
@@ -262,7 +262,7 @@ img.ui.bordered.image {
 .ui.huge.image {
   width: 800px;
   height: auto;
-  font-size: 1.42857143rem;
+  font-size: 1.44444444rem;
 }
 .ui.massive.images .image,
 .ui.massive.images img,
@@ -270,7 +270,7 @@ img.ui.bordered.image {
 .ui.massive.image {
   width: 960px;
   height: auto;
-  font-size: 1.71428571rem;
+  font-size: 1.72222222rem;
 }
 
 
@@ -294,6 +294,33 @@ img.ui.bordered.image {
          Theme Overrides
 *******************************/
 
+.ui.image {
+  max-width: inherit;
+}
+.ui.avatar.image.tiny {
+  width: 30px !important;
+  height: 30px !important;
+}
+.ui.avatar.image.small {
+  width: 50px !important;
+  height: 50px !important;
+}
+.ui.avatar.image.medium {
+  width: 60px !important;
+  height: 60px !important;
+}
+.ui.avatar.image.large {
+  width: 100px !important;
+  height: 100px !important;
+}
+.ui.avatar.image.huge {
+  width: 140px !important;
+  height: 140px !important;
+}
+.ui.avatar.image.massive {
+  width: 280px !important;
+  height: 280px !important;
+}
 
 
 /*******************************

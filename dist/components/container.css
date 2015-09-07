@@ -22,7 +22,7 @@
 }
 
 /* Mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 479px) {
   .ui.container {
     width: auto !important;
     margin-left: 1em !important;
@@ -40,56 +40,56 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 480px) and (max-width: 1023px) {
   .ui.container {
-    width: 723px;
+    width: 427px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
   .ui.grid.container {
-    width: calc( 723px  +  2rem ) !important;
+    width: calc( 427px  +  2rem ) !important;
   }
   .ui.relaxed.grid.container {
-    width: calc( 723px  +  3rem ) !important;
+    width: calc( 427px  +  3rem ) !important;
   }
   .ui.very.relaxed.grid.container {
-    width: calc( 723px  +  5rem ) !important;
+    width: calc( 427px  +  5rem ) !important;
   }
 }
 
 /* Small Monitor */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
   .ui.container {
-    width: 933px;
+    width: 953px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
   .ui.grid.container {
-    width: calc( 933px  +  2rem ) !important;
+    width: calc( 953px  +  2rem ) !important;
   }
   .ui.relaxed.grid.container {
-    width: calc( 933px  +  3rem ) !important;
+    width: calc( 953px  +  3rem ) !important;
   }
   .ui.very.relaxed.grid.container {
-    width: calc( 933px  +  5rem ) !important;
+    width: calc( 953px  +  5rem ) !important;
   }
 }
 
 /* Large Monitor */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1025px) {
   .ui.container {
-    width: 1127px;
+    width: 936px;
     margin-left: auto !important;
     margin-right: auto !important;
   }
   .ui.grid.container {
-    width: calc( 1127px  +  2rem ) !important;
+    width: calc( 936px  +  2rem ) !important;
   }
   .ui.relaxed.grid.container {
-    width: calc( 1127px  +  3rem ) !important;
+    width: calc( 936px  +  3rem ) !important;
   }
   .ui.very.relaxed.grid.container {
-    width: calc( 1127px  +  5rem ) !important;
+    width: calc( 936px  +  5rem ) !important;
   }
 }
 
@@ -101,12 +101,12 @@
 
 /* Text Container */
 .ui.text.container {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: museo-sans, sans-serif;
   max-width: 700px !important;
   line-height: 1.5;
 }
 .ui.text.container {
-  font-size: 1.14285714rem;
+  font-size: 1.16666667rem;
 }
 
 /* Fluid */
