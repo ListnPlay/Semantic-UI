@@ -31,12 +31,12 @@
 @inputFontSize: 18px;
 @inputLineHeight: 42px;
 @defaultInputLineHeight: 42px;
-@inputPadding: 20px 20px;
+@inputPadding: 0 20px; //ffm
 @inputVerticalPadding: 0.78571em;
 @inputHorizontalPadding: 1em;
 @inputLineHeight: @defaultInputLineHeight;
 @inputPadding: (@inputVerticalPadding + ((1em - @inputLineHeight) / 2)) @inputHorizontalPadding;
-@inputBackground: #FFFFFF;
+@inputBackground: transparent;
 @inputBorder: 1px solid #cccccc;
 @inputBorderRadius: @absoluteBorderRadius;
 @inputColor: @textColor;
@@ -44,7 +44,7 @@
   color @defaultDuration @defaultEasing,
   border-color @defaultDuration @defaultEasing
 ;
-@inputBoxShadow: 0;
+@inputBoxShadow: none;
 
 /* Select */
 @selectBackground: @white;
@@ -56,10 +56,10 @@
 @selectColor: @inputColor;
 
 /* Text Area */
-@textAreaPadding: 0 20px;
+@textAreaPadding: 10px 20px; //ffm
 @textAreaHeight: 100%;
 @textAreaResize: vertical;
-@textAreaLineHeight: 42px;
+@textAreaLineHeight: 1.3;
 @textAreaMinHeight: 42px;
 @textAreaMaxHeight: 24em;
 @textAreaBackground: @inputBackground;
@@ -98,8 +98,8 @@
 @inputFocusBackground: @inputBackground;
 @inputFocusBorderColor: @ffm-blue;
 @inputFocusColor: rgba(0, 0, 0, 0.85);
-@inputFocusBoxShadow: 0;
-@inputFocusBorderRadius: 0em @inputBorderRadius @inputBorderRadius 0em;
+@inputFocusBoxShadow: none;
+@inputFocusBorderRadius: @inputBorderRadius;
 
 /* Text Area Focus */
 @textAreaFocusBackground: @inputFocusBackground;
@@ -114,7 +114,7 @@
 /* Error */
 @formErrorColor: @black;
 @formErrorBorder: @negativeBorderColor;
-@formErrorBackground: @negativeBackgroundColor;
+@formErrorBackground: #f7e3e3;
 
 /* AutoFill */
 @inputAutoFillBackground: #FFFFF0;
@@ -134,13 +134,13 @@
 
 /* Dropdown Error */
 @dropdownErrorHoverBackground: #FBE7E7;
-@dropdownErrorSelectedBackground: @dropdownErrorHoverBackground;
+@dropdownErrorSelectedBackground: #FDCFCF;
 @dropdownErrorActiveBackground: #FDCFCF;
 @dropdownErrorLabelBackground: #EACBCB;
 @dropdownErrorLabelColor: @errorTextColor;
 
 /* Focused Error */
-@inputErrorFocusBackground: @negativeBackgroundColor;
+@inputErrorFocusBackground: #f7e3e3;
 @inputErrorFocusColor: @negativeTextColor;
 @inputErrorFocusBorder: @negativeBorderColor;
 @inputErrorFocusBoxShadow: none;
