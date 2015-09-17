@@ -4,7 +4,7 @@
 
 
 @linedBorder: 1px solid #999999;
-@linedBorderHorizontalPadding: 10px;
+@linedBorderHorizontalPadding: 20px;
 @linedBorderVerticalPadding: 10px;
 
 .ui.statistics .lined.statistic {
