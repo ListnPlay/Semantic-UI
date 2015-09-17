@@ -41,7 +41,7 @@
 /* Label */
 @labelSize: 14px;
 @topLabelDistance: 0rem;
-@bottomLabelDistance: 0.25rem;
+@bottomLabelDistance: 8px;
 @labelFont: @headerFont;
 @labelFontWeight: normal;
 @labelColor: @unselectedTextColor;
