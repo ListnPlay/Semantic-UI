@@ -11311,6 +11311,11 @@ img.ui.bordered.image {
   z-index: 1;
 }
 
+input {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 /*
 @media (max-width: 479px) {
   .ui.form .input input,
