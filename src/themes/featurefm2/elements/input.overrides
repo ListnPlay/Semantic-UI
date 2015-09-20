@@ -16,3 +16,12 @@ input {
   padding-right: 20px;
   font-weight: @font-weight-light;
 }
+
+.ui.form .fields .field .ui.input input,
+.ui.form .field .ui.input input,
+.ui.form .inline.fields .field > input,
+.ui.form .inline.fields .field > select,
+.ui.form .inline.field > input,
+.ui.form .inline.field > select {
+  width: 100% !important;
+}
