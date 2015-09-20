@@ -24,4 +24,5 @@ input {
 .ui.form .inline.field > input,
 .ui.form .inline.field > select {
   width: 100% !important;
+  max-height: 42px !important;
 }
