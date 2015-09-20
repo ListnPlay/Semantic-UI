@@ -38,9 +38,20 @@
 @menuBoxShadow: @raisedShadow;
 @menuBorderRadius: @borderRadius;
 @menuTransition: opacity @defaultDuration @defaultEasing;
-//@menuMinWidth: ~"calc(100% + "(@menuBorderWidth * 2)~")";
-@menuMinWidth: calc(~'100% + 2px');
-//@menuMinWidth: ~"calc(100% + "(@menuBorderWidth / 2)~")";
+
+@menuMinWidth: ~"calc(100% + "(@menuBorderWidth * 2)~")";
+//@menuMinWidth: ~"calc(100% + "-@menuBorderWidth * 2~")";
+//@menuMinWidth: ~"calc(100% + "2px~")";
+//@menuMinWidth: "calc(~100%" + "2px)";
+//@menuMinWidth: ~"calc(~100% + ~2px)";
+//@menuMinWidth: calc((~100%) + 2px);
+//@menuMinWidth: ~"calc("100%~" + "(@menuBorderWidth * 2)~")";
+//@menuMinWidth: ~"calc("100%~" + "(@menuBorderWidth * 2)~px")";
+//@menuMinWidth: ~"calc(100% + "2 * @menuBorderWidth~")";
+
+
+
+
 @menuZIndex: 11;
 
 /* Text */
