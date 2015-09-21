@@ -49,4 +49,8 @@ nbproject
 
 .idea/workspace.xml
 
-dist
+dist/components
+dist/themes
+dist/semantic.css
+dist/semantic.min.css
+
