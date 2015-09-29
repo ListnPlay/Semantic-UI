@@ -311,8 +311,10 @@
 @activeItemColor: @selectedTextColor;
 
 /* Selected */
-@selectedBackground: @subtleTransparentBlack;
-@selectedColor: @selectedTextColor;
+//@selectedBackground: @subtleTransparentBlack;
+@selectedBackground: @ffm-blue;
+@selectedColor: #ffffff;
+//@selectedColor: @selectedTextColor;
 
 /* Error */
 @errorLabelBackground: #EACBCB;

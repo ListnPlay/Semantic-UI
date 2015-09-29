@@ -1071,10 +1071,9 @@ $.fn.form = function(parameters) {
             if(settings.inline && $prompt.is(':visible')) {
               module.verbose('Removing prompt for field', field);
               if(settings.transition && $.fn.transition !== undefined && $module.transition('is supported')) {
-                //$prompt.transition(settings.transition + ' out', settings.duration, function() {
-                //  $prompt.remove();
-                //});
-                $prompt.remove();
+                $prompt.transition(settings.transition + ' out', settings.duration, function() {
+                  $prompt.remove();
+                });
               }
               else {
                 $prompt
