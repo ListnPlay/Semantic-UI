@@ -54,6 +54,7 @@
   color: #999999 !important;
   padding-left: 30px !important;
   padding-top: 5px !important;
+  cursor: hand;
 }
 
 .ui.checkbox label:before,
