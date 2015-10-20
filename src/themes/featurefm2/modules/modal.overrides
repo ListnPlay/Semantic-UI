@@ -4,8 +4,8 @@
 
 .ui.modal {
     .close.icon {
-        top: 0.05em !important;
-        right: 0.05em !important;
+        top: 0.05em;
+        right: 0.05em;
         float: right;
         cursor: hand;
         color: #CCD6D0;
