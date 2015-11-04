@@ -3,7 +3,7 @@
 *******************************/
 
 .field > input, .ui.input > input {
-    background-color: transparent !important;
+    background-color: transparent;
     position: relative;
 }
 
