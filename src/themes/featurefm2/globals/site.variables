@@ -345,7 +345,7 @@
 
 /* For source only. Modified in gulp for dist */
 @imagePath : '../../themes/default/assets/images';
-@fontPath  : '../../themes/default/assets/fonts';
+@fontPath  : 'https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.3/themes/default/assets/fonts';
 
 /*-------------------
        Em Sizes
