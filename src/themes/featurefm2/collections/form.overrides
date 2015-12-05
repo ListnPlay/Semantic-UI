@@ -2,3 +2,6 @@
          Theme Overrides
 *******************************/
 
+.ui.form input {
+	height: 44px;
+}
