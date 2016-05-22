@@ -4699,7 +4699,9 @@ $.fn.dropdown = function(parameters) {
               : module.get.query(),
             $results         = $(),
             escapedTerm      = module.escape.regExp(searchTerm),
-            beginsWithRegExp = new RegExp('^' + escapedTerm, 'igm')
+            beginsWithRegExp = new RegExp('^' + escapedTerm, 'igm'),
+            containsRegExp = new RegExp(escapedTerm, 'igm')
+
           ;
           // avoid loop if we're matching nothing
           if( !module.has.query() ) {
@@ -4720,7 +4722,11 @@ $.fn.dropdown = function(parameters) {
                     $results = $results.add($choice);
                     return true;
                   }
-                  else if(settings.fullTextSearch && module.fuzzySearch(searchTerm, text)) {
+                  else if((settings.fullTextSearch == 'exact') && text.search(containsRegExp) !== -1) {
+                    $results = $results.add($choice);
+                    return true;
+                  }
+                  else if((settings.fullTextSearch === true || settings.fullTextSearch == 'fuzzy') && module.fuzzySearch(searchTerm, text)) {
                     $results = $results.add($choice);
                     return true;
                   }
@@ -4732,7 +4738,11 @@ $.fn.dropdown = function(parameters) {
                     $results = $results.add($choice);
                     return true;
                   }
-                  else if(settings.fullTextSearch && module.fuzzySearch(searchTerm, value)) {
+                  else if((settings.fullTextSearch == 'exact') && value.search(containsRegExp) !== -1) {
+                    $results = $results.add($choice);
+                    return true;
+                  }
+                  else if((settings.fullTextSearch === true || settings.fullTextSearch == 'fuzzy') && module.fuzzySearch(searchTerm, value)) {
                     $results = $results.add($choice);
                     return true;
                   }
@@ -7232,7 +7242,7 @@ $.fn.dropdown.settings = {
   keepOnScreen           : true,       // Whether dropdown should check whether it is on screen before showing
 
   match                  : 'both',     // what to match against with search selection (both, text, or label)
-  fullTextSearch         : false,      // search anywhere in value
+  fullTextSearch         : false,      // search anywhere in value, available values are: false, true, fuzzy, exact. true/fuzzy are identical
 
   placeholder            : 'auto',     // whether to convert blank <select> values to placeholder text
   preserveHTML           : true,       // preserve html when selecting value
