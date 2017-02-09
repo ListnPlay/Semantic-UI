@@ -383,7 +383,7 @@ $.fn.dropdown = function(parameters) {
           $module
             .removeData(metadata.defaultText)
             .removeData(metadata.defaultValue)
-            .removeData(metadata.placeholderText)
+            //.removeData(metadata.placeholderText) //ffm - commenting this out solves the bug where the placeholder disappears after refresh
           ;
         },
 
