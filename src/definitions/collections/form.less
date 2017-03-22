@@ -76,7 +76,7 @@
 /*--------------------
     Standard Inputs
 ---------------------*/
-@inputWidth: 100%;
+
 
 .ui.form textarea,
 .ui.form input:not([type]),
@@ -89,6 +89,7 @@
 .ui.form input[type="tel"],
 .ui.form input[type="time"],
 .ui.form input[type="text"],
+.ui.form input[type="file"],
 .ui.form input[type="url"],
 .ui.form .ui.input {
   width: @inputWidth;
@@ -222,7 +223,7 @@
 /* Inline  */
 .ui.form .inline.fields .field:not(.wide) .ui.input,
 .ui.form .inline.field:not(.wide) .ui.input {
-  width: 100%;
+  width: auto;
   vertical-align: middle;
 }
 
